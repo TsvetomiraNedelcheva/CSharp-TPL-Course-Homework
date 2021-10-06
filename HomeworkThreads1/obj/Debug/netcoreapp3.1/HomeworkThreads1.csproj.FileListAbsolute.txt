@@ -1,0 +1,13 @@
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.exe
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.deps.json
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.runtimeconfig.json
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.runtimeconfig.dev.json
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.dll
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\bin\Debug\netcoreapp3.1\HomeworkThreads1.pdb
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.csprojAssemblyReference.cache
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.AssemblyInfoInputs.cache
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.AssemblyInfo.cs
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.csproj.CoreCompileInputs.cache
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.dll
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.pdb
+C:\Users\Test\source\repos\HomeworkThreads1\HomeworkThreads1\obj\Debug\netcoreapp3.1\HomeworkThreads1.genruntimeconfig.cache
