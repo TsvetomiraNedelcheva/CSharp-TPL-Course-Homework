@@ -12,18 +12,24 @@ namespace HomeworkThreads1
     {
         static void Main(string[] args)
         {
+            Stopwatch sw = new Stopwatch();
             var book = File.ReadAllText
                  (@"../../../book.txt",
                  Encoding.UTF8);
             Console.WriteLine("Non-threaded version: ");
+            sw.Start();
             NumberOfWords(book);
             LongestWord(book); //counts intervals for a char ?
             ShortestWord(book);
             AvgLength(book);
             MostUsed(book);
             LeastUsed(book);
+            sw.Stop();
+            Console.WriteLine($"Time for non-threaded version: {sw.ElapsedMilliseconds}");
 
             Console.WriteLine("Threaded version: ");
+            Stopwatch sw1 = new Stopwatch();
+            sw1.Start();
             Thread numbers = new Thread(() => NumberOfWords(book));
             numbers.Start();
             Thread longest = new Thread(() => LongestWord(book));
@@ -36,6 +42,8 @@ namespace HomeworkThreads1
             mostUsed.Start();
             Thread leastUsed = new Thread(() => LeastUsed(book));
             leastUsed.Start();
+            sw1.Stop(); //stopwatch stops before some threads end but thread.join() seems too slow
+            Console.WriteLine($"Time for threaded version:{sw1.ElapsedMilliseconds}");
         }
 
         static void NumberOfWords(string book)
