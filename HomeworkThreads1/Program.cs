@@ -77,7 +77,7 @@ namespace HomeworkThreads1
             var words = book.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             Dictionary<string, int> dic = new Dictionary<string, int>();
 
-            foreach (string w in words)
+            foreach (string w in words.Select(x => x.ToLower()))
             {
                 if (dic.Keys.Contains(w))
                 {
@@ -87,7 +87,7 @@ namespace HomeworkThreads1
                 {
                     dic.Add(w, 1);
                 }
-            }
+            }  
 
             var mostUsedWord = dic.OrderByDescending(v => v.Value).FirstOrDefault();
             Console.WriteLine($"Most used word: {mostUsedWord.Key} - {mostUsedWord.Value}");
@@ -98,7 +98,7 @@ namespace HomeworkThreads1
             var words = book.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             Dictionary<string, int> dic = new Dictionary<string, int>();
 
-            foreach (string w in words)
+            foreach (string w in words.Select(x => x.ToLower()))
             {
                 if (dic.Keys.Contains(w))
                 {
