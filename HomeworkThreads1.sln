@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreads1", "HomeworkThreads1\HomeworkThreads1.csproj", "{39E68F4E-5FC3-44D1-8ACA-7B5B7FF9A1CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceScraper", "PriceScraper\PriceScraper.csproj", "{A0B62E55-B822-4E26-B166-A880157FEBE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
