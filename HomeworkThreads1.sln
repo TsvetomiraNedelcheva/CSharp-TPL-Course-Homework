@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreads1", "Homewor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{F6DE1DF3-EF4F-43BA-8405-87BA7A706BB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceScraper", "PriceScraper\PriceScraper.csproj", "{A0B62E55-B822-4E26-B166-A880157FEBE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceScraper", "PriceScraper\PriceScraper.csproj", "{A0B62E55-B822-4E26-B166-A880157FEBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarSimulator", "BarSimulator\BarSimulator.csproj", "{34FA238D-32CD-40D7-996F-4AF7EC44EB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B62E55-B822-4E26-B166-A880157FEBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FA238D-32CD-40D7-996F-4AF7EC44EB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FA238D-32CD-40D7-996F-4AF7EC44EB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FA238D-32CD-40D7-996F-4AF7EC44EB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FA238D-32CD-40D7-996F-4AF7EC44EB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
